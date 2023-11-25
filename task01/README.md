@@ -4,7 +4,7 @@
 
 **Задача:** Написать программу, которая из имеющегося массива строк формирует новый массив из строк, длина которых меньше, либо равна 3 символам. Первоначальный массив можно ввести с клавиатуры, либо задать на старте выполнения алгоритма. При решении не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами.
 
-[image alt] (https://github.com/speranskaya1991/FinalAssignmentOfMainUnit/blob/main/task01/newPlan.png)
+![image alt] (https://github.com/speranskaya1991/FinalAssignmentOfMainUnit/blob/main/task01/newPlan.png)
 
 1. Первым делом задаются:
 

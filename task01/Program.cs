@@ -16,4 +16,69 @@
 // [“Russia”, “Denmark”, “Kazan”] → []
 
 
+void PrintArray(string [] arr)
+{
+    Console.Write('[');
+    for (int index = 0; index < arr.Length; index++)
+    {
+        if (index < arr.Length-1)
+        {
+            Console.Write($"{arr[index]}, ");
+        }
+        else
+        {
+            Console.Write($"{arr[index]}");
+        }
+            
+    }
+    Console.WriteLine(']');
+}
+
+string [] arrayStart = {"Hello", "2", "world", ":-)"};
+string [] arrayResult = new string [arrayStart.Length];
+int j = 0;
+
+// int countArrayStart = arrayStart.Length;
+// Console.WriteLine(countArrayStart);
+// Console.WriteLine(arrayStart[0]);
+for (int i = 0; i < arrayStart.Length; i++)
+    // for (int j = 0; j < arrayResult.Length; j++)
+    {
+        if (arrayStart[i].Length < 4)
+        {
+            arrayResult[j] = arrayStart[i];
+            //Console.Write('[' + arrayResult[j] + ']');
+            j++;
+        }
+            // Console.WriteLine(j);
+    }
+if 
+PrintArray(arrayStart);
+PrintArray(arrayResult);
+
+
+
+
+// Console.WriteLine(arrayResult.Length);
+// for (int p = 0; p < arrayResult.Length; p++)
+// {
+//     Console.WriteLine(arrayResult[p]);
+// }
+
+//     if (countWord < 3)
+//         arrayResult[j] = arrayStart[i];
+//         j +=1;
+//     i+=1;
+// while (p < arrayResult().Length)
+//     Console.WriteLine(arrayResult[p]);
+
+
+// string a = "hello";
+// Console.WriteLine(a.Length);
+
+// string a = "dsfsdf";
+// int b = a.Length;
+// Console.WriteLine(b);
+// for (int i = 0; i < arrayStart.Length; i++)
+
 

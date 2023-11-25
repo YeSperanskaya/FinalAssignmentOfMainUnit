@@ -44,7 +44,6 @@ for (int i = 0; i < arrayStart.Length; i++)
             j++;
         }
     }
-if 
 PrintArray(arrayStart);
 PrintArray(arrayResult);
 

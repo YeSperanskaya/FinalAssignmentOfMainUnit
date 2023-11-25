@@ -34,16 +34,18 @@ void PrintArray(string [] arr)
 }
 
 string [] arrayStart = {"Hello", "2", "world", ":-)"};
-string [] arrayResult = new string [arrayStart.Length];
+List <string> listResult = new List<string>();
 int j = 0;
+int maxSizeWord = 3;
 for (int i = 0; i < arrayStart.Length; i++)
     {
-        if (arrayStart[i].Length < 4)
+        if (arrayStart[i].Length <= maxSizeWord)
         {
-            arrayResult[j] = arrayStart[i];
+            listResult.Add(arrayStart[i]);
             j++;
         }
     }
+string [] arrayResult = listResult.ToArray();
 PrintArray(arrayStart);
 PrintArray(arrayResult);
 
